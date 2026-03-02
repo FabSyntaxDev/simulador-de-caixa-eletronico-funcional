@@ -1,0 +1,112 @@
+{
+  "contas": [
+    {
+      "id": 1,
+      "usuario": "admin",
+      "senha": "1234",
+      "nome": "João Silva",
+      "conta": "12345-6",
+      "saldo": 1050.00,
+      "transacoes": [
+        "2026-03-02 15:56:46 - Transfer�ncia recebida de 12346-7 valor R$ 300,00",
+        "2026-03-02 15:58:07 - Transfer�ncia de R$ 250,00 para 12347-8"
+      ]
+    },
+    {
+      "id": 2,
+      "usuario": "maria",
+      "senha": "5678",
+      "nome": "Maria Santos",
+      "conta": "12346-7",
+      "saldo": 2000.50,
+      "transacoes": [
+        "2026-03-02 15:56:46 - Transfer�ncia de R$ 300,00 para 12345-6"
+      ]
+    },
+    {
+      "id": 3,
+      "usuario": "carlos",
+      "senha": "9012",
+      "nome": "Carlos Oliveira",
+      "conta": "12347-8",
+      "saldo": 2290.75,
+      "transacoes": [
+        "2026-03-02 15:58:07 - Transfer�ncia recebida de 12345-6 valor R$ 250,00"
+      ]
+    },
+    {
+      "id": 4,
+      "usuario": "ana",
+      "senha": "3456",
+      "nome": "Ana Costa",
+      "conta": "12348-9",
+      "saldo": 3000.00,
+      "transacoes": [
+        "2026-03-02 16:01:18 - Transferência de R$ 200,00 para 12349-0"
+      ]
+    },
+    {
+      "id": 5,
+      "usuario": "pedro",
+      "senha": "7890",
+      "nome": "Pedro Ferreira",
+      "conta": "12349-0",
+      "saldo": 1700.25,
+      "transacoes": [
+        "2026-03-02 16:01:18 - Transferência recebida de 12348-9 valor R$ 200,00"
+      ]
+    },
+    {
+      "id": 6,
+      "usuario": "lucas",
+      "senha": "2345",
+      "nome": "Lucas Gomes",
+      "conta": "12350-1",
+      "saldo": 3700.00,
+      "transacoes": [
+       
+      ]
+    },
+    {
+      "id": 7,
+      "usuario": "juliana",
+      "senha": "6789",
+      "nome": "Juliana Rocha",
+      "conta": "12351-2",
+      "saldo": 3250.80,
+      "transacoes": [
+        "2026-03-02 16:05:04 - Transferência recebida de 12350-1 valor R$ 500,00"
+      ]
+    },
+    {
+      "id": 8,
+      "usuario": "rafael",
+      "senha": "0123",
+      "nome": "Rafael Mendes",
+      "conta": "12352-3",
+      "saldo": 950.60,
+      "transacoes": [
+      ]
+    },
+    {
+      "id": 9,
+      "usuario": "fernanda",
+      "senha": "4567",
+      "nome": "Fernanda Alves",
+      "conta": "12353-4",
+      "saldo": 3500.40,
+      "transacoes": [
+      ]
+    },
+    {
+      "id": 10,
+      "usuario": "gabriel",
+      "senha": "8901",
+      "nome": "Gabriel Martins",
+      "conta": "12354-5",
+      "saldo": 2200.90,
+      "transacoes": [
+      ]
+    }
+  ]
+}
