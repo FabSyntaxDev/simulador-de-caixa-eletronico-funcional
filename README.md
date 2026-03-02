@@ -1,18 +1,38 @@
-## Getting Started
+🏦 Simple ATM Simulator
+Um simulador de Caixa Eletrônico funcional desenvolvido para demonstrar manipulação de arquivos JSON, lógica de autenticação e gestão de estado de dados de forma local.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+O projeto permite realizar operações bancárias básicas enquanto mantém a persistência dos dados diretamente em um arquivo .json, simulando o comportamento de um banco de dados simples.
 
-## Folder Structure
+🚀 Funcionalidades
+Autenticação de Usuário: Sistema de login baseado em usuário e senha.
 
-The workspace contains two folders by default, where:
+Consulta de Saldo: Visualização em tempo real do saldo disponível.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Depósitos e Saques: Atualização dinâmica do saldo com persistência no arquivo local.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Histórico de Transações: Registro de movimentações dentro do objeto do usuário.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Persistência de Dados: Todas as alterações são salvas diretamente no contas.json.
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Usuários:
+
+João Silva — User: admin, Senha: 1234
+
+Maria Santos — User: maria, Senha: 5678
+
+Carlos Oliveira — User: carlos, Senha: 9012
+
+Ana Costa — User: ana, Senha: 3456
+
+Pedro Ferreira — User: pedro, Senha: 7890
+
+Lucas Gomes — User: lucas, Senha: 2345
+
+Juliana Rocha — User: juliana, Senha: 6789
+
+Rafael Mendes — User: rafael, Senha: 0123
+
+Fernanda Alves — User: fernanda, Senha: 4567
+
+Gabriel Martins — User: gabriel, Senha: 8901
