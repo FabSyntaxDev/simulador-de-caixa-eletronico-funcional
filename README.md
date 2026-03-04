@@ -1,38 +1,42 @@
-🏦 Simple ATM Simulator
-Um simulador de Caixa Eletrônico funcional desenvolvido para demonstrar manipulação de arquivos JSON, lógica de autenticação e gestão de estado de dados de forma local.
+# 🏦 Simple ATM Simulator
 
-O projeto permite realizar operações bancárias básicas enquanto mantém a persistência dos dados diretamente em um arquivo .json, simulando o comportamento de um banco de dados simples.
+Um simulador de Caixa Eletrônico funcional desenvolvido para demonstrar lógica de programação, autenticação de usuários e manipulação de persistência de dados utilizando arquivos JSON.
 
-🚀 Funcionalidades
-Autenticação de Usuário: Sistema de login baseado em usuário e senha.
+O projeto simula o comportamento real de um banco de dados simples, onde todas as operações financeiras são refletidas e salvas localmente em tempo real.
 
-Consulta de Saldo: Visualização em tempo real do saldo disponível.
+---
 
-Depósitos e Saques: Atualização dinâmica do saldo com persistência no arquivo local.
+## 🚀 Funcionalidades
 
-Histórico de Transações: Registro de movimentações dentro do objeto do usuário.
+- **Autenticação Segura:** Sistema de login validado contra base de dados JSON.
+- **Operações Bancárias:** - **Consulta de Saldo:** Visualização instantânea do status financeiro.
+  - **Depósitos e Saques:** Atualização dinâmica com validação de limites.
+- **Histórico de Transações:** Registro detalhado de movimentações dentro do perfil de cada usuário.
+- **Persistência de Dados (JSON):** Todas as alterações (saques, depósitos, novas senhas) são salvas diretamente no arquivo `contas.json`, garantindo que os dados não sejam perdidos ao fechar a aplicação.
 
-Persistência de Dados: Todas as alterações são salvas diretamente no contas.json.
+## 🛠️ Tecnologias Utilizadas
 
+- **Linguagem:** [Java]
+- **Armazenamento:** JSON (Persistência de dados local)
+- **Paradigma:** Orientação a Objetos / Funcional [Ajustar conforme seu código]
 
-Usuários:
+## 📂 Estrutura de Dados
 
-João Silva — User: admin, Senha: 1234
+O projeto utiliza uma estrutura organizada no arquivo `contas.json`, permitindo uma escalabilidade simples para novos usuários ou novos tipos de transações.
 
-Maria Santos — User: maria, Senha: 5678
+### Usuários para Teste:
+| Usuário | Senha | Nome |
+| :--- | :--- | :--- |
+| `admin` | `1234` | João Silva |
+| `maria` | `5678` | Maria Santos |
+| `carlos` | `9012` | Carlos Oliveira |
+| `ana` | `3456` | Ana Costa |
+| `pedro` | `7890` | Pedro Ferreira |
 
-Carlos Oliveira — User: carlos, Senha: 9012
+*(A lista completa de usuários está disponível no arquivo de configuração do sistema).*
 
-Ana Costa — User: ana, Senha: 3456
+## ⚙️ Como Executar
 
-Pedro Ferreira — User: pedro, Senha: 7890
-
-Lucas Gomes — User: lucas, Senha: 2345
-
-Juliana Rocha — User: juliana, Senha: 6789
-
-Rafael Mendes — User: rafael, Senha: 0123
-
-Fernanda Alves — User: fernanda, Senha: 4567
-
-Gabriel Martins — User: gabriel, Senha: 8901
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/FabSyntaxDev/simulador-de-caixa-eletronico-funcional.git](https://github.com/FabSyntaxDev/simulador-de-caixa-eletronico-funcional.git)
