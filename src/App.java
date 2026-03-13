@@ -206,7 +206,6 @@ public class App {
         String valor = texto.substring(inicio, fim).trim().replaceAll("[^0-9.]", "");
         return Double.parseDouble(valor);
     }
-
     // extrai um array de strings ("transacoes") de um objeto JSON simplificado
     static List<String> extrairArrayDeStrings(String texto, String chave) {
         int pos = texto.indexOf(chave);
